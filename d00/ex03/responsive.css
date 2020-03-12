@@ -1,0 +1,57 @@
+body	{background-image: url("/Users/esalorin/Mendeleev.jpg");
+		background-position: center center;
+		background-size: cover;}
+
+.symbol	{text-align:center;
+		margin-top: 50%;
+		margin-bottom: 10%;
+		font-weight: bold;
+		font-size:2vw;}
+
+.atomic {font-size:0.8vw;
+		float: left;
+		margin-left: 2%;
+		margin-top: 5%;
+		margin-bottom: 5%;}
+
+.weight {font-size:0.8vw;
+		float: right;
+		margin-right: 2%;
+		margin-top: 5%;
+		margin-bottom: 5%;}
+
+.empty	{border: none;}
+
+.space	{border:none;
+		color:white;}
+
+div		{height: auto;
+		width: auto}
+
+table	{table-layout: fixed;
+		height: auto;
+		width: auto;
+		margin: 10% auto;}
+
+td 		{border: 1px solid black;
+		width: 5%;}
+
+#yellow	{background-color:#ffff66;}
+
+#blue	{background-color:#ABFFFF;}
+
+#red	{background-color:#FF5050;}
+
+#orange	{background-color:#FFCC99;}
+
+#green	{background-color:#9DA970;}
+
+#gray	{background-color:gray;}
+
+#coral	{background-color:#FF9999;}
+
+#lila	{background-color:#FF99FF;}
+
+#pink	{background-color:#FF73B2;}
+
+#lgray	{background-color:lightgray;}
