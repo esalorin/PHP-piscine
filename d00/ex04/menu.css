@@ -1,0 +1,83 @@
+.menu	{
+		width: fit-content;
+		}
+.dropdown	{
+		position: relative;
+		border: 1px solid black;
+		display: inline-block;
+		}
+.dropdown2,
+.dropdown3	{
+		position: relative;
+		border: 1px solid black;
+		border-top: none;
+		display: block;
+		}
+.dd-button	{
+		outline: none;
+		border: none;
+		font-size: 20px;
+		padding: 15px;
+		width: 150px;
+		background-color: white;
+		}
+.dd-button2,
+.dd-button3	{
+		outline: none;
+		border: none;
+		border-right: 1px solid black;
+		font-size: 15px;
+		padding: 15px;
+		width: 150px;
+		background-color: white;
+		}
+.dropdown .dd-content,
+.dropdown2 .dd-content2,
+.dropdown3 .dd-content3	{
+		cursor: pointer;
+		text-align: center;
+		display: none;
+		position: absolute;
+		width: 150px;
+		}
+.dropdown .dd-button:hover,
+.dropdown .dd-content a:hover,
+.dropdown2 .dd-button2:hover,
+.dropdown2 .dd-content2 a:hover,
+.dropdown3 .dd-button3:hover,
+.dropdown3 .dd-content3 a:hover	{
+		display: block;
+		transition: all 0.3s ease;
+		background-color: rgba(104, 104, 104, 0.488);
+		color: white;
+		}
+.dropdown:hover .dd-content {
+		display: block;
+		}
+.dropdown:hover .dd-button,
+.dropdown2:hover .dd-button2,
+.dropdown3:hover .dd-button3	{
+		background-color: rgba(104, 104, 104, 0.488);
+		color: white;
+		}
+.dropdown2:hover .dd-content2,
+.dropdown3:hover .dd-content3	{
+		display: block;
+		right: auto;
+		top: 0;
+		left: 100%;
+		}
+.dd-content a,
+.dd-content2 a,
+.dd-content3 a {
+		color: black;
+		padding: 15px;
+		display: block;
+		border: 1px solid black;
+		border-top: none;
+		text-decoration: none;
+		}
+#first	{
+		border-top: 1px solid black;
+		border-left: none;
+		}
